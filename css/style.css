@@ -1,0 +1,192 @@
+
+
+.belso {
+	background-color:white;
+	border-top: 2px dotted gray;
+	padding: 0 0 0 15px;
+	margin: 0px;
+}
+.szoveg{ 
+font-weight:bold;
+color:#000000 ;
+}
+
+
+/* karakter es bekezdesformazasok */
+h1, h2 { /*Egyszerre adjuk meg a ket stilus azonos jegyeit*/
+	text-transform:uppercase;
+	font-weight: bold;
+}
+
+h1 {
+	letter-spacing: 1pt;
+	font-size: 12pt;
+}
+
+h2 {
+	font-size: 10pt;
+}
+ p{
+	text-align:justify;  /*sorkizart igazitas*/
+	
+ }
+ 
+ hr{
+	 color: rgba(10, 110, 95,0.8);
+ }
+ 
+ .bordw{
+	 border: 2px solid white;
+	 padding: 0px;
+	 margin-bottom: 20px;
+ }
+ 
+ .bordd{
+	 border: 2px solid rgba(10, 110, 95,0.8);
+	 padding: 0px;
+	 margin-bottom: 20px;
+ }
+   
+ .left{
+	 float:left;
+	 width: 45%;
+	 margin-right: 15px;
+ }
+ 
+ .right{
+	 float:right;
+	 width: 45%;
+	 margin-left: 15px;
+ }
+ 
+  .clearr{
+	  clear: right;
+	  margin-top: 30px;
+  }
+  
+  .clearl{
+	  clear: left;
+  }
+ 
+ #horgony{
+	 list-style-type:none;
+	 text-align: center;
+ }
+ 
+ #horgony li {
+	 display:inline;
+ }
+ 
+ #horgony a{
+	 width: 120px;
+	 margin:25px;
+	 padding:10px;
+	 background-color: rgba(10, 110, 95,0.3);
+ }
+ 
+ #horgony a:hover{
+	 background-color: rgba(10, 110, 95,0.8);
+	 color: wheat;
+ }
+ 
+ #up{
+	 display:block;
+	 text-align: center;
+	 width: 120px;
+	 margin:0 auto;
+	 padding:10px;
+	 background-color: rgba(10, 110, 95,0.3);
+ }
+ 
+ #up:hover{
+	 background-color: rgba(10, 110, 95,0.8);
+	 color: wheat;
+ }
+ 
+ a {
+	text-decoration:none;
+	font-weight:bold;
+ }
+ a:link {
+	color:#cc2c17;/*sotet piros*/
+ 
+ }
+ a:visited {
+	color:#364c17;
+ }
+ 
+ a:hover {
+	color:red;
+ }
+ 
+ 
+/*kepek usztatasa*/
+img{
+	padding: 5px;
+}
+
+.bal {
+	float:left;
+}
+
+.jobb {
+	float:right;
+}
+.torol{
+	clear:both;
+}
+
+/*tablazat form-sa*/
+table {
+	border-collapse:collapse;
+	
+}
+td,th {
+	border-bottom: 1px solid gray;
+	text-align:center;
+}
+caption {
+	font-weight:bold;
+	text-align:left;
+	padding-bottom:10px;
+	font-size:11pt;
+	
+}
+.masodik{
+	background-color:silver;
+}
+/*urlap formazasa*/
+
+
+#feliratkozas label {
+    float: left;
+    width: 6em;
+    margin: 5px;
+    text-align: right;
+}
+
+form br {
+    clear: left;
+}
+
+
+legend {
+    padding: 10px 4px;
+}
+
+fieldset {
+   
+    border: 1px solid #4c1f22;
+    padding: 10px;
+}
+
+
+
+
+ 
+ 
+ 
+ 
+	
+	
+	
